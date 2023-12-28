@@ -1,4 +1,5 @@
 import React from "react";
+import Projects from "./Projects";
 
 type NavigationProps = {};
 
@@ -10,6 +11,8 @@ const Navigation: React.FC<NavigationProps> = () => {
     <div
       className="Navigation">
       Segvndo
+
+      <Projects />
     </div>
   )
 };
