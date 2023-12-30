@@ -1,12 +1,18 @@
-import Image from 'next/image'
-import Navigation from '../components/Navigation'
+import React, { ReactElement } from 'react';
+import Link from 'next/link';
 
-export default function Home() {
+type HomeProps = {};
+
+const Home: React.FC<HomeProps> = (): ReactElement => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex flex-row justify-center space-x-4">
+      
       <div>
-        <Navigation />
+        <Link href="/Projects">Projects</Link>
       </div>
+
     </main>
-  )
+  );
 };
+
+export default Home;
