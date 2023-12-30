@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Navigation: React.FC = () => {
   return (
-    <nav className="flex flex-row  items-center justify-center space-x-4">
+    <nav className="flex flex-row items-center justify-center space-x-4 p-8 bg-grey-500">
       
       <div>
         <Link href="/">
