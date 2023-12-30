@@ -4,7 +4,8 @@ import Link from 'next/link';
 const Navigation: React.FC = () => {
   return (
     <div className="nav-container bg-yellow-500 p-8 w-full h-18">
-      <nav className="flex flex-row items-center justify-center space-x-4 bg-grey-500">
+      <nav
+        className="flex flex-row items-center justify-end space-x-16 bg-grey-500 text-2xl pr-6 font-serif">
 
         <div>
           <Link href="/">
@@ -29,6 +30,8 @@ const Navigation: React.FC = () => {
             Contact
           </Link>
         </div>
+
+        
 
       </nav>
     </div>
