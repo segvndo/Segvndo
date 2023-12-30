@@ -8,7 +8,9 @@ const Home: React.FC<HomeProps> = (): ReactElement => {
     <main className="flex flex-row justify-center space-x-4">
       
       <div>
-        <Link href="/Projects">Projects</Link>
+        <Link href="/">
+          Home
+        </Link>
       </div>
 
     </main>
