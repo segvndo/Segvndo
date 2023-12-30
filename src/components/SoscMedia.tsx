@@ -1,20 +1,22 @@
+'use client';
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faDiscord, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
-const SoscMedia: React.FC = () => {
+type SoscMediaProps = {};
+
+const SoscMedia: React.FC<SoscMediaProps> = () => {
   return (
-    <div className="flex flex-row justify-center space-x-4">
+    <div className="icon-container">
 
-      <div className="bg-yellow-300 w-1/2 h-1/2">
-        <h1>LinkedIn</h1>
-      </div>
-
-      <div className="bg-yellow-300 w-1/2 h-1/2">
-        <h1>Github</h1>
-      </div>
-
-      <div className="bg-yellow-300 w-1/2 h-1/2">
-        <h1>Discord</h1>
-      </div>
+        <div>
+          <div className="flex flex-center justify-center m-2">
+            <FontAwesomeIcon icon={faLinkedin} size="2x" className="mr-4" style={{ color: 'black' }} />
+            <FontAwesomeIcon icon={faDiscord} size="2x" className="mr-4" style={{ color: 'black' }} />
+            <FontAwesomeIcon icon={faGithub} size="2x" className="mr-4" style={{ color: 'black' }} />
+            <FontAwesomeIcon icon={faYoutube} size="2x" className="mr-4" style={{ color: 'black' }} />
+          </div>
+        </div>
 
     </div>
   );
