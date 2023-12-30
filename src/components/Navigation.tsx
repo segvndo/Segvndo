@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Navigation: React.FC = () => {
   return (
-    <nav className="flex flex-row justify-center space-x-4">
+    <nav className="flex flex-row  items-center justify-center space-x-4">
       
       <div>
         <Link href="/">
