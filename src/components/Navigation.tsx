@@ -7,7 +7,7 @@ const Navigation: React.FC = () => {
     <>
       <div className="nav-container">
         <nav
-          className="flex flex-row items-center justify-end space-x-16 bg-grey-500 text-2xl pr-6 font-serif text-black bg-yellow-500 p-8 w-full h-18">
+          className="flex flex-row items-center justify-end space-x-16 bg-grey-500 text-2xl pr-6 font-serif text-black bg-yellow-400 p-8 w-full h-18">
 
           <SoscMedia>
           </SoscMedia>
