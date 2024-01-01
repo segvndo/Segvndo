@@ -10,30 +10,36 @@ const Navigation: React.FC = () => {
         <div>
           <Link
             href="/"
-            className="">
-              Home
+            className="hover:text-white">
+            Home
           </Link>
         </div>
 
         <div>
-          <Link href="/about">
+          <Link
+            href="/about"
+            className="hover:text-white">
             About
           </Link>
         </div>
 
         <div>
-          <Link href="/projects">
+          <Link
+            href="/projects"
+            className="hover:text-white">
             Projects
           </Link>
         </div>
 
         <div>
-          <Link href="/contact">
+          <Link
+            href="/contact"
+            className="hover:text-white">
             Contact
           </Link>
         </div>
 
-        
+
 
       </nav>
     </div>
