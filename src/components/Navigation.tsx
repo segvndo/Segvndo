@@ -5,11 +5,13 @@ const Navigation: React.FC = () => {
   return (
     <div className="nav-container bg-yellow-500 p-8 w-full h-18">
       <nav
-        className="flex flex-row items-center justify-end space-x-16 bg-grey-500 text-2xl pr-6 font-serif">
+        className="flex flex-row items-center justify-end space-x-16 bg-grey-500 text-2xl pr-6 font-serif text-black">
 
         <div>
-          <Link href="/">
-            Home
+          <Link
+            href="/"
+            className="">
+              Home
           </Link>
         </div>
 
