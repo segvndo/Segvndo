@@ -9,7 +9,7 @@ const Home: React.FC<HomeProps> = (): ReactElement => {
     <main className="bg-yellow-300 flex flex-col justify-center space-x-4">
     
       <Navigation />
-      <SoscMedia />
+      {/* <SoscMedia /> */}
 
     </main>
   );

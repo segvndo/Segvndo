@@ -7,19 +7,17 @@ type SoscMediaProps = {};
 
 const SoscMedia: React.FC<SoscMediaProps> = () => {
   return (
-    <div className="icon-container">
 
+    <div className="fixed left-0 top-0 p-4 ml-4">
       <div>
-        <div className="flex flex-center justify-center m-2 ">
-          <FontAwesomeIcon icon={faLinkedin} size="2x" className="icon mr-4 hover:animate-spin" style={{ color: 'black' }} />
-          <FontAwesomeIcon icon={faDiscord} size="2x" className="icon mr-4 hover:animate-spin" style={{ color: 'black' }} />
-          <FontAwesomeIcon icon={faGithub} size="2x" className="icon mr-4 hover:animate-spin" style={{ color: 'black' }} />
-          <FontAwesomeIcon icon={faYoutube} size="2x" className="icon mr-4 hover:animate-spin" style={{ color: 'black' }} />
-        </div>
-        
+        <FontAwesomeIcon icon={faLinkedin} size="2x" className="icon mr-4 hover:animate-spin" style={{ color: 'black' }} />
+        <FontAwesomeIcon icon={faDiscord} size="2x" className="icon mr-4 hover:animate-spin" style={{ color: 'black' }} />
+        <FontAwesomeIcon icon={faGithub} size="2x" className="icon mr-4 hover:animate-spin" style={{ color: 'black' }} />
+        <FontAwesomeIcon icon={faYoutube} size="2x" className="icon mr-4 hover:animate-spin" style={{ color: 'black' }} />
       </div>
 
     </div>
+
   );
 };
 
