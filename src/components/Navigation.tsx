@@ -21,7 +21,7 @@ const Navigation: React.FC = () => {
 
           <div>
             <Link
-              href="/about"
+              href="/About"
               className="hover:text-white">
               About
             </Link>
