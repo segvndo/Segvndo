@@ -4,6 +4,8 @@ import Link from 'next/link';
 import SoscMedia from './SoscMedia';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import Image from 'next/image';
+import bee from '../../assets/bee.jpg';
 
 const Navigation: React.FC = () => {
 
@@ -17,7 +19,15 @@ const Navigation: React.FC = () => {
       <div className="nav-container">
         <nav className="flex flex-col lg:flex-row items-center lg:justify-end space-y-4 lg:space-y-0 lg:space-x-16 bg-grey-500 text-2xl pr-6 font-serif text-bp-primary-color bg-yellow-300 p-8 w-full h-18">
 
-          <SoscMedia />
+          {/* <SoscMedia /> */}
+
+          <div className="fixed left-0 top-0 p-4 ml-4">
+            <div className="relative">
+              <Image src={bee} alt="Bee Logo" height={60} width={70} className="rounded-full mb-8" />
+              {/* <h1 className="absolute bottom-0 left-2 mb-2 lg:mb-0 lg:mr-4 text-xs text-bp-primary-color">I am Bea</h1> */}
+            </div>
+          </div>
+
 
           {/* Burger Icon for Small Screens */}
           <div className="lg:hidden cursor-pointer" onClick={toggleMenu}>
