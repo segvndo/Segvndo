@@ -1,6 +1,7 @@
 import React, { ReactElement } from 'react';
 import Navigation from '@/components/Navigation';
 import About from '@/components/About';
+import Skills from '@/components/Skills';
 
 type HomeProps = {};
 
@@ -12,6 +13,10 @@ const Home: React.FC<HomeProps> = (): ReactElement => {
       {/* <SoscMedia /> */}
       <div>
         <About />
+      </div>
+
+      <div>
+        <Skills />
       </div>
     </main>
   );
