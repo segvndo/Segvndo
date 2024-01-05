@@ -3,18 +3,19 @@ import Link from 'next/link';
 import SoscMedia from './SoscMedia';
 
 const Navigation: React.FC = () => {
+
   return (
     <>
       <div className="nav-container">
         <nav
-          className="flex flex-row items-center justify-end space-x-16 bg-grey-500 text-2xl pr-6 font-serif text-black bg-yellow-400 p-8 w-full h-18">
+          className="flex flex-row items-center justify-end space-x-16 bg-grey-500 text-2xl pr-6 font-serif text-purple-950 bg-yellow-300 p-8 w-full h-18">
 
           <SoscMedia>
           </SoscMedia>
           <div>
             <Link
               href="/"
-              className="hover:text-white">
+              className="hover:text-yellow-500">
               Home
             </Link>
           </div>
