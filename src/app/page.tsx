@@ -4,6 +4,7 @@ import About from '@/components/About';
 import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 import SoscMedia from '@/components/SoscMedia';
+import Intro from '@/components/Intro';
 
 type HomeProps = {};
 
@@ -12,6 +13,8 @@ const Home: React.FC<HomeProps> = (): ReactElement => {
     <main className=" flex flex-col justify-center space-x-4">
     
       <Navigation />
+
+      <Intro />
       
       <div>
         <About />
