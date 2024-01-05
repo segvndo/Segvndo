@@ -9,7 +9,7 @@ const Skills: React.FC = () => {
   return (
     <>
       <div className="flex flex-center justify-center text-3xl font-semibold font-serif mt-12 mb-12 text-bp-primary-color">Skills</div>
-      <div className="flex flex-center justify-center space-x-10 text-purple-950">
+      <div className="flex flex-wrap justify-center md:justify-center space-x-10 text-purple-950">
         <FontAwesomeIcon icon={faHtml5} size="6x"  style={{ color:iconColour }}/>
         <FontAwesomeIcon icon={faCss3Alt} size="6x" style={{ color:iconColour }}/>
         <FontAwesomeIcon icon={faJs} size="6x" style={{ color:iconColour }}/>
