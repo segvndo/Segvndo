@@ -8,14 +8,14 @@ const Navigation: React.FC = () => {
     <>
       <div className="nav-container">
         <nav
-          className="flex flex-row items-center justify-end space-x-16 bg-grey-500 text-2xl pr-6 font-serif text-purple-950 bg-yellow-300 p-8 w-full h-18">
+          className="flex flex-row items-center justify-end space-x-16 bg-grey-500 text-2xl pr-6 font-serif text-bp-primary-color bg-yellow-300 p-8 w-full h-18">
 
           <SoscMedia>
           </SoscMedia>
           <div>
             <Link
               href="/"
-              className="hover:text-yellow-500">
+              className="hover:text-bp-secondary-color">
               Home
             </Link>
           </div>

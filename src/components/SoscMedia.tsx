@@ -10,10 +10,10 @@ const SoscMedia: React.FC<SoscMediaProps> = () => {
 
     <div className="fixed left-0 top-0 p-4 ml-4">
       <div>
-        <FontAwesomeIcon icon={faLinkedin} size="2x" className="icon mr-4 hover:animate-spin" style={{ color: '#362c4e' }} />
-        <FontAwesomeIcon icon={faDiscord} size="2x" className="icon mr-4 hover:animate-spin" style={{ color: '#362c4e' }} />
-        <FontAwesomeIcon icon={faGithub} size="2x" className="icon mr-4 hover:animate-spin" style={{ color: '#362c4e' }} />
-        <FontAwesomeIcon icon={faYoutube} size="2x" className="icon mr-4 hover:animate-spin" style={{ color: '#362c4e' }} />
+        <FontAwesomeIcon icon={faLinkedin} size="2x" className="icon mr-4 hover:animate-spin text-bp-primary-color" />
+        <FontAwesomeIcon icon={faDiscord} size="2x" className="icon mr-4 hover:animate-spin text-bp-primary-color" />
+        <FontAwesomeIcon icon={faGithub} size="2x" className="icon mr-4 hover:animate-spin text-bp-primary-color" />
+        <FontAwesomeIcon icon={faYoutube} size="2x" className="icon mr-4 hover:animate-spin text-bp-primary-color" />
       </div>
 
     </div>
