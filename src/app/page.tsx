@@ -5,6 +5,7 @@ import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 import SoscMedia from '@/components/SoscMedia';
 import Intro from '@/components/Intro';
+import Contacts from '@/components/Contacts';
 
 
 type HomeProps = {};
@@ -29,6 +30,10 @@ const Home: React.FC<HomeProps> = (): ReactElement => {
 
       <div >
         <Skills />
+      </div>
+
+      <div>
+        <Contacts />
       </div>
 
       <div className="fixed top-1/2 left-0 transform -translate-y-1/2 p-4">
