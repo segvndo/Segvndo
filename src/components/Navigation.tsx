@@ -7,6 +7,8 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 import bee from '../../assets/bee.jpg';
 
+type NavigationProps = {};
+
 const Navigation: React.FC = () => {
 
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -43,22 +45,29 @@ const Navigation: React.FC = () => {
             </div>
 
             <div className="mb-2 lg:mb-0 lg:mr-12">
-              <Link href="/About" className="hover:text-white">
+              <Link href="/About" className="hover:text-bp-secondary-color">
                 About
               </Link>
             </div>
 
             <div className="mb-2 lg:mb-0 lg:mr-12">
-              <Link href="/projects" className="hover:text-white">
+              <Link href="/projects" className="hover:text-bp-secondary-color">
                 Projects
               </Link>
             </div>
 
             <div className="mb-2 lg:mb-0 lg:mr-12">
-              <Link href="/contact" className="hover:text-white">
+              <Link href="/skills" className="hover:text-bp-secondary-color">
+                Skills
+              </Link>
+            </div>
+
+            <div className="mb-2 lg:mb-0 lg:mr-12">
+              <Link href="/contact" className="hover:text-bp-secondary-color">
                 Contact
               </Link>
             </div>
+            
           </div>
         </nav>
       </div>
