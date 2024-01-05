@@ -2,6 +2,7 @@ import React, { ReactElement } from 'react';
 import Navigation from '@/components/Navigation';
 import About from '@/components/About';
 import Skills from '@/components/Skills';
+import Projects from '@/components/Projects';
 
 type HomeProps = {};
 
@@ -16,8 +17,13 @@ const Home: React.FC<HomeProps> = (): ReactElement => {
       </div>
 
       <div>
+        <Projects />
+      </div>
+      
+      <div>
         <Skills />
       </div>
+
     </main>
   );
 };
