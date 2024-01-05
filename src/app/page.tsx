@@ -1,16 +1,18 @@
 import React, { ReactElement } from 'react';
 import Navigation from '@/components/Navigation';
-import SoscMedia from '@/components/SoscMedia';
+import About from '@/components/About';
 
 type HomeProps = {};
 
 const Home: React.FC<HomeProps> = (): ReactElement => {
   return (
-    <main className="bg-yellow-300 flex flex-col justify-center space-x-4">
+    <main className=" flex flex-col justify-center space-x-4">
     
       <Navigation />
       {/* <SoscMedia /> */}
-
+      <div>
+        <About />
+      </div>
     </main>
   );
 };
