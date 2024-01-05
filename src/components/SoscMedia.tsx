@@ -8,8 +8,8 @@ type SoscMediaProps = {};
 const SoscMedia: React.FC<SoscMediaProps> = () => {
   return (
 
-    <div className="fixed left-0 top-0 p-4 ml-4">
-      <div>
+    <div>
+      <div className="flex flex-col">
         <FontAwesomeIcon icon={faLinkedin} size="2x" className="icon mr-4 hover:animate-spin text-bp-primary-color" />
         <FontAwesomeIcon icon={faDiscord} size="2x" className="icon mr-4 hover:animate-spin text-bp-primary-color" />
         <FontAwesomeIcon icon={faGithub} size="2x" className="icon mr-4 hover:animate-spin text-bp-primary-color" />
