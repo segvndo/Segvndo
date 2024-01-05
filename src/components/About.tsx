@@ -4,9 +4,15 @@ const About: React.FC = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <h1 className="text-4xl font-serif mt-12 text-bp-primary-color">About</h1>
-      <p className="text-2xl font-serif ml-12 mr-12 mb-4 mt-4 text-bp-primary-color">
-        Greetings! I am an enthusiastic Full Stack Developer committed to designing websites and applications that play a pivotal role in enhancing the overall success of the product. My path in web development is characterized by an ongoing commitment to learning, and I find fulfillment in imparting my insights and knowledge to the broader development community.
-      </p>
+      <div className="text-2xl font-serif ml-12 mr-12 mb-4 mt-4 text-bp-primary-color">
+
+        <p>Greetings! I am an enthusiastic Full Stack Developer committed to designing websites and applications that play a pivotal role in enhancing the overall success of the product. My path in web development is characterized by an ongoing commitment to learning, and I find fulfillment in imparting my insights and knowledge to the broader development community.
+        </p>
+        &nbsp;
+        <p>
+        Through my various projects, I illustrate my unwavering commitment to crafting engaging and impactful web solutions. These endeavors not only serve as a testament to my technical prowess but also reflect my genuine passion for generating innovative and thrilling creations. I am a firm believer in the power of collaboration and teamwork, and I am eager to join a team of like-minded individuals who share my passion for web development. When you're ready, let's connect and explore the possibilities for a collaborative journey towards success!
+        </p>
+      </div>
     </div>
   );
 };
