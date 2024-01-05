@@ -6,9 +6,9 @@ const Projects: React.FC = () => {
       <div>Projects</div>
 
       <div>
-        <div>Project 1</div>
-        <div>Project 2</div>
-        <div>Project 3</div>
+        <div>BookBud</div>
+        <div>Bartender Bench</div>
+        <div>New Me</div>
       </div>
     </>
   )
