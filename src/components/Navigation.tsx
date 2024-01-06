@@ -33,7 +33,7 @@ const Navigation: React.FC = () => {
 
           {/* Burger Icon for Small Screens */}
           <div className="lg:hidden cursor-pointer" onClick={toggleMenu}>
-            <FontAwesomeIcon icon={faBars} className="text-bp-primary-color" size="2x" />
+            <FontAwesomeIcon icon={faBars} className="text-bp-primary-color" size="1x" />
           </div>
 
           {/* Navigation Links for Larger Screens */}
