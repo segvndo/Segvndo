@@ -23,7 +23,7 @@ const Contacts = () => {
           <div className="mr-8">
             <label htmlFor="message" className="flex flex-start ml-4 mt-4 text-bp-primary-color">Message</label>
             <div>
-              <textarea name="message" id="message" placeholder="Enter your message" className="flex flex-start ml-4 mr-4 mt-2 mb-4 border border-bp-secondary-color rounded-md pl-2 w-full" style={{ height: '150px' }}/>
+              <textarea name="message" id="message" placeholder="Enter your message" className="flex flex-start ml-4 mr-4 mt-2 mb-4 border border-bp-secondary-color rounded-md pl-2 w-full text-bp-primary-color" style={{ height: '150px' }}/>
             </div>
           </div>
         <button type="submit" className="bg-bp-primary-color rounded-lg h-18 w-28 mt-2 mb-6">Send</button>
