@@ -14,6 +14,7 @@ const Navigation: React.FC = () => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const threshold = 100;
+      
       setIsTransparent(scrollPosition < threshold);
     }
 
@@ -25,7 +26,7 @@ const Navigation: React.FC = () => {
 
   return (
     <>
-      <div className={`nav-container ${isTransparent ? 'transparent' : ''}`}>
+      <div className="nav-container" style={{ backgroundColor: isTransparent ? 'rgba(255, 255, 0, 0.5)' : '#ffffff' }}>
         <NavContainer />
         
 
