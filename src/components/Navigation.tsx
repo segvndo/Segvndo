@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faHouse, faAddressCard, faBriefcase, faCode, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faBars, faHouse, faAddressCard, faBriefcase, faCode, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import NavContainer from './NavContainer';
 
 type NavigationProps = {};
