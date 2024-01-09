@@ -27,3 +27,22 @@ body {
   background: rgb(50, 44, 62);
 }
 
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* Set your desired background color */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.nav-container.transparent {
+  background-color: rgba(255, 255, 0, 0.5); /* Set your desired transparent background color */
+}
+
+.full-height {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

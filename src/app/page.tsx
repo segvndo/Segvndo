@@ -16,23 +16,23 @@ const Home: React.FC<HomeProps> = (): ReactElement => {
 
       <Navigation />
 
-      <div id="intro">
+      <div id="intro" className="full-height">
         <Intro />
       </div>
 
-      <div id="about">
+      <div id="about" className="full-height">
         <About />
       </div>
 
-      <div id="projects">
+      <div id="projects" className="full-height">
         <Projects />
       </div>
 
-      <div id="skills">
+      <div id="skills" className="full-height">
         <Skills />
       </div>
 
-      <div id="contacts">
+      <div id="contacts" className="full-height">
         <Contacts />
       </div>
 
